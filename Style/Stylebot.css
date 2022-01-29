@@ -7630,6 +7630,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
+  background-image: url("../Logo/16148576621458.jpg");
+  background-repeat: no-repeat;
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
