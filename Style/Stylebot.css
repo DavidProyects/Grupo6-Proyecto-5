@@ -2990,7 +2990,7 @@ textarea.form-control-lg {
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
+    -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   background-color: transparent;
@@ -7944,10 +7944,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.bg-primary {
+/*.bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
+}*/
 
 .bg-secondary {
   --bs-bg-opacity: 1;
@@ -8030,20 +8030,20 @@ textarea.form-control-lg {
 
 .user-select-all {
   -webkit-user-select: all !important;
-     -moz-user-select: all !important;
+    -moz-user-select: all !important;
           user-select: all !important;
 }
 
 .user-select-auto {
   -webkit-user-select: auto !important;
-     -moz-user-select: auto !important;
+    -moz-user-select: auto !important;
       -ms-user-select: auto !important;
           user-select: auto !important;
 }
 
 .user-select-none {
   -webkit-user-select: none !important;
-     -moz-user-select: none !important;
+    -moz-user-select: none !important;
       -ms-user-select: none !important;
           user-select: none !important;
 }
@@ -12179,7 +12179,5 @@ textarea.form-control-lg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
-  width: 4rem;
-  font-size: 2rem;
+  background-color: (--bs-gray-100);
 }
