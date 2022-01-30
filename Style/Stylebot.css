@@ -78,23 +78,18 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-#barra {
+#bar {
   background-color: #107dc0;
   position: fixed;
   z-index: 10;
   display: flex;
   width: 100%;
 }
-#hola {
+#bar1 {
   background-color: #107dc0;
 }
 
-#fondo1 {
-  background-color: teal;
-}
-#fondo2 {
-  background-color: #107dc0;
-}
+
 #sectionone {
   
   width: 100%;
