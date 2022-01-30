@@ -2443,7 +2443,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
-     -moz-appearance: none;
+    -moz-appearance: none;
           appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -7736,7 +7736,7 @@ footer .wave#wave4{
 
 @keyframes animatewave
 {
-   0%
+  0%
   {
     background-position-x: 1000px;
   }
@@ -7747,7 +7747,7 @@ footer .wave#wave4{
 }
 @keyframes animatewave_02
 {
-   0%
+  0%
   {
     background-position-x: 0px;
   }
