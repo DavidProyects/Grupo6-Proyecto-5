@@ -78,6 +78,38 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#barra {
+  background-color: #107dc0;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+}
+#hola {
+  background-color: #107dc0;
+}
+
+#fondo1 {
+  background-color: teal;
+}
+#fondo2 {
+  background-color: #107dc0;
+}
+#sectionone {
+  
+  width: 100%;
+  height: auto;
+}
+
+#sectionone video {
+  
+  width: 100%;
+  height: 100%;
+  display:fle;
+  position:fixe;
+ 
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
