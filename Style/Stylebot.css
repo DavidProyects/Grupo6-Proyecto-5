@@ -7638,55 +7638,63 @@ textarea.form-control-lg {
 
 footer{
   position:relative;
-  background:#3586ff;
-  min-height: 100px;
+  background:;
+  height: 200px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: initial;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
+  margin: 100px 0 0 0 ;
+  padding:20px 0 0 0 ;
 }
 
 footer #photo__icon{
-  position: relative;
-  display: flex;
-  height: 100px;
+  
+  
+  height: 140px;
   width: 100%;
   margin: 0;
-  justify-content: initial;
-  align-items: initial;
-  flex-wrap: wrap;
-}
-
-footer #logo__icon{
-  background-color: lawngreen;
-  height: 300px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  background-color:;
   float: left;
+  padding-top: 0px;
+  margin-top: 30px;
 }
 
-footer p{
+#logo__icon{
+  background-color: #3586ff;
+  height: 160px;
+  width: 100%;
+  padding: -100px 0 20px 0;
+  margin: 22px 0 0 0;
+ 
+  
+}
+#footer{
+padding: 0px 0 0 0;
+margin: 0;
+margin-left: 40px;
+
+
+}
+
+#mas{
   padding: 0;
   margin: 0;
+  color: #fff;
+  width: 150px;
+  background-color: ;
+  font-size: 15em;
+  margin-left: 80%;
+  margin-top: -80px;
+}
+footer p{
+  padding: 5px 0 20px 0 ;
+  margin: 5px 0 0  0;
   color: #fff;
   text-align: center;
-  font-size: 1.1em;
-}
-
-footer .name{
-  display: flex;
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  width: 200px;
-  background-color: mediumblue;
-  text-align: end;
-  justify-content: flex-end;
-  font-size: 15em;
+  font-size: 1em;
+  background-color: #3586ff;
 }
 
 footer .wave{
