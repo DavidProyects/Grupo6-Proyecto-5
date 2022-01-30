@@ -78,6 +78,38 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#barra {
+  background-color: #107dc0;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+}
+#hola {
+  background-color: #107dc0;
+}
+
+#fondo1 {
+  background-color: teal;
+}
+#fondo2 {
+  background-color: #107dc0;
+}
+#sectionone {
+  
+  width: 100%;
+  height: auto;
+}
+
+#sectionone video {
+  
+  width: 100%;
+  height: 100%;
+  display:fle;
+  position:fixe;
+ 
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -7602,6 +7634,119 @@ textarea.form-control-lg {
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
+}
+
+footer{
+  position:relative;
+  background:#3586ff;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+footer #photo__icon{
+  position: relative;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  justify-content: initial;
+  align-items: initial;
+  flex-wrap: wrap;
+}
+
+footer #logo__icon{
+  background-color: lawngreen;
+  height: 300px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+footer p{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+footer .name{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  width: 200px;
+  background-color: mediumblue;
+  text-align: end;
+  justify-content: flex-end;
+  font-size: 15em;
+}
+
+footer .wave{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+}
+
+footer .wave#wave1{
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animatewave 4s linear infinite;
+}
+
+footer .wave#wave2{
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animatewave_02 4s linear infinite;
+}
+
+footer .wave#wave3{
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animatewave_03 3s linear infinite;
+}
+
+footer .wave#wave4{
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animatewave_04 3s linear infinite;
+}
+
+@keyframes animatewave
+{
+   0%
+  {
+    background-position-x: 1000px;
+  }
+  100%
+  {
+    background-position-x: 0px;
+  }
+}
+@keyframes animatewave_02
+{
+   0%
+  {
+    background-position-x: 0px;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
 }
 
 .py-0 {
