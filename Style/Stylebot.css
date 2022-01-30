@@ -7638,7 +7638,7 @@ textarea.form-control-lg {
 
 footer{
   position:relative;
-  background:;
+  background-color:#3586ff;
   height: 200px;
   width: 100%;
   display: flex;
@@ -7662,7 +7662,7 @@ footer #photo__icon{
 }
 
 #logo__icon{
-  background-color: #3586ff;
+  background-color: ;
   height: 160px;
   width: 100%;
   padding: -100px 0 20px 0;
@@ -7683,7 +7683,7 @@ margin-left: 40px;
   margin: 0;
   color: #fff;
   width: 150px;
-  background-color: ;
+  background-color:#3586ff ;
   font-size: 15em;
   margin-left: 80%;
   margin-top: -80px;
